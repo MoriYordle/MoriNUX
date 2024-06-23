@@ -1,47 +1,82 @@
 #   MoriNUX
-Base:               Arch Linux
-Kernel:             Linux
-Shell:              zsh
+Base:              - Arch Linux
+
+Kernel:            - Linux
+
+Shell:             - zsh
 
 #    KDE Plasma    #
 
-#   Appearance
-App Style:          Breeze
-App Style GTK:      Breeze
-Plasma Style:       Fluent
-Colors:             Catppuccin Mocha Mauve
-Window decorations: Alba P6
+-   Appearance
+
+
+App Style:          Breeze 
+
+App Style GTK:      Breeze 
+
+Plasma Style:       Fluent 
+
+Colors:             Catppuccin Mocha Mauve 
+
+Window decorations: Alba P6 
+
 Fonts:
+    
     General:        Noto-sans             10pt
+    
     Fixed Width:    Hurmit Nerd Font Mono 10pt
+    
     Small:          Noto-sans             8pt
+    
     Toolbar:        Noto-sans             10pt
+    
     Menu            Noto-sans             10pt
+    
     Window Title:   Noto-sans             10pt
+    
 Icons:              Tela Dark
+
 Cursors:            Breeze Light
+
 System Sounds:      Ocean
+
 Splashscreen:       Catppuccin Mocha Mauve
+
 SDDM:               Catppuccin Mocha
+
 Shell:              ohmyzsh! "bira"
+
    - Install:
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 #   Aplications
+
 Web Browser:        Firefox
+
 Email Client:       KMail
+
 Dialer:             KDE Connect
+
 File Manager:       Dolphin
+
 File Archiver:      Ark
+
 Terminal emulator:  Konsole
+
 Text Editor:        Kate
+
 Office:             LibreOffice
+
 PDF:                Okular
+
 Image Viewer:       GwenView
+
 Music:              Elisa
+
 Video:              MPV
+
 Map:                Google Maps
 
 #   Widgets
@@ -73,18 +108,31 @@ flatpak install com.obsproject.Studio
 #    XFCE    #
 
 #    Appearance
+
 Global Style:          Catppuccin Mocha Standard Mauve Dark
+
 XFWM Styke:            Tgc
+
 Fonts:
+
     General:        Noto-sans             10pt
+    
     Fixed Width:    Hurmit Nerd Font Mono 10pt
+    
     Small:          Noto-sans             8pt
+    
     Toolbar:        Noto-sans             10pt
+    
     Menu            Noto-sans             10pt
+    
     Window Title:   Noto-sans             10pt
+    
 Icons:              Tela Dark
+
 Cursors:            Breeze
+
 Shell:              ohmyzsh! "bira"
+
     Install:            
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
