@@ -147,7 +147,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 paru -Sy --needed alacritty mpv gimp discord audacity steam libreoffice-still wine winetricks zsh nano fastfetch bottles \
 btop element-desktop godot qbittorrent dino git prismlauncher-qt5-bin blender-3.6-bin kdenlive okular partitionmanager krita \
 flatpak noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra pipewire-alsa pipewire-jack jdk8-openjdk base-devel linux-headers \
-dosfstools mkinitcpio-firmware ttf-material-design-icons-extended ttf-ms-win11-auto
+dosfstools mkinitcpio-firmware ttf-material-design-icons-extended ttf-ms-win11-auto wine-staging-git
 paru -Syu
 ```
 
