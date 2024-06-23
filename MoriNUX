@@ -63,7 +63,8 @@ flatpak install com.obsproject.Studio
 #    XFCE    #
 
 #    Appearance
-Style:          Catppuccin Mocha Standard Mauve Dark
+Global Style:          Catppuccin Mocha Standard Mauve Dark
+XFWM Styke:            Tgc
 Fonts:
     General:        Noto-sans             10pt
     Fixed Width:    Hurmit Nerd Font Mono 10pt
