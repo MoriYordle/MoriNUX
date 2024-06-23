@@ -24,7 +24,7 @@ System Sounds:      Ocean
 Splashscreen:       Catppuccin Mocha Mauve
 SDDM:               Catppuccin Mocha
 Shell:              ohmyzsh! "bira"
-    Install:            
+   - Install:
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
