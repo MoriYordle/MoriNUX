@@ -158,8 +158,7 @@ flatpak install com.obsproject.Studio
 
 #    OpenSUSE
 ```
-sudo zypper install alacritty mpv gimp discord audacity steam libreoffice wine winetricks zsh nano fastfetch bottles \
-btop element-desktop godot qbittorrent dino kdenlive okular partitionmanager krita \
-google-noto-sans-cjk-fonts google-noto-serif-cjk-fonts pipewire-alsa pipewire-jack java-1_8_0-openjdk \
-dosfstools
+sudo zypper install alacritty mpv gimp discord audacity steam wine winetricks zsh fastfetch bottles \
+btop element-desktop godot qbittorrent dino kdenlive partitionmanager krita \
+google-noto-sans-cjk-fonts java-1_8_0-openjdk
 ```
