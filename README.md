@@ -167,17 +167,3 @@ google-noto-sans-cjk-fonts java-1_8_0-openjdk
 ```
 flatpak install flathub com.obsproject.Studio com.usebottles.bottles
 ```
-
-#    Alpine    #
-
-```
-sudo apk add kdeconnect kdenlive kmail krita partitionmanager dino element-desktop \
-prismlauncher alacritty audacity wine winetricks btop fastfetch gimp godot\
-libreoffice mpv dosfstools git wireplumber zsh 
-```
-#    flatpak
-```
-flatpak install com.obsproject.Studio com.usebottles.bottles com.chatterino.chatterino \
-com.discordapp.Discord com.valvesoftware.Steam com.github.unrud.VideoDownloader \
-com.usebottles.bottles io.github.shiftey.Desktop
-```
