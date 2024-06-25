@@ -153,12 +153,15 @@ paru -Syu
 
 #   flatpak
 ```
-flatpak install com.obsproject.Studio
+flatpak install com.obsproject.Studio 
 ```
 
 #    OpenSUSE
 ```
-sudo zypper install alacritty mpv gimp discord audacity steam wine winetricks zsh fastfetch bottles \
+sudo zypper install alacritty mpv gimp discord audacity steam wine winetricks zsh fastfetch \
 btop element-desktop godot qbittorrent dino kdenlive partitionmanager krita \
 google-noto-sans-cjk-fonts java-1_8_0-openjdk
 ```
+#   flatpak
+```
+flatpak install com.obsproject.Studio com.usebottles.bottles
