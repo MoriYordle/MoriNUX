@@ -5,7 +5,7 @@ sudo zypper install alacritty mpv gimp discord audacity steam wine winetricks zs
 btop element-desktop godot qbittorrent dino kdenlive partitionmanager krita \
 google-noto-sans-cjk-fonts java-1_8_0-openjdk
 ```
-#   flatpak
+  **flatpak**
 ```
 flatpak install flathub com.obsproject.Studio com.usebottles.bottles
 ```
