@@ -1,0 +1,82 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "source": "~/.config/fastfetch/xenia-inside.png"
+  },
+  "general": {
+    "multithreading": true
+  },
+  "display": {
+    "separator": "➜   "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": "                   {6}{7}{8}"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┌───────────────────────────────────────────────────┐" // `\u001b` is `\033`, or `\e`
+    },
+    "break",
+    {
+      "key": "     OS           ",
+      "keyColor": "green",
+      "type": "os"
+    },
+    {
+      "key": "     Kernel       ",
+      "keyColor": "blue",
+      "type": "kernel"
+    },
+    {
+      "key": "    󰅐 Uptime       ",
+      "keyColor": "green",
+      "type": "uptime"
+    },
+    {
+      "key": "     Packages     ",
+      "keyColor": "cyan",
+      "type": "packages",
+      "format": "{} (pacman)"
+    },
+    {
+      "key": "     DE           ",
+      "keyColor": "blue",
+      "type": "de"
+    },
+    {
+      "key": "     Shell        ",
+      "keyColor": "green",
+      "type": "shell"
+    },
+    {
+      "key": "    󰻠 CPU          ",
+      "keyColor": "green",
+      "type": "cpu",
+      "format": "{1}"
+    },
+    {
+      "key": "    󰑭 Memory       ",
+      "keyColor": "blue",
+      "type": "memory"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────────────────┘" // `\u001b` is `\033`, or `\e`
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 19,
+      "symbol": "circle",
+      "block": {
+        "width": 10
+      }
+    }
+  ]
+}
