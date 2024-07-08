@@ -100,6 +100,7 @@ gimp discord audacity steam libreoffice-still git noto-fonts noto-fonts-cjk noto
 pipewire-alsa pipewire-jack jdk8-openjdk base-devel wine winetricks zsh nano fastfetch btop element-desktop dino \
 linux-headers partitionmanager dosfstools mkinitcpio-firmware prismlauncher-qt5-bin blender-3.6-bin \
 ttf-material-design-icons-extended ttf-ms-win11-auto ytdownloader-gui-bin spotube-bin
+paru -R htop 
 ```
 
 #   flatpak
