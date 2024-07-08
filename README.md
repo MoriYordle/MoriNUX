@@ -10,7 +10,7 @@ google-noto-sans-cjk-fonts java-1_8_0-openjdk
 flatpak install flathub com.obsproject.Studio com.usebottles.bottles
 ```
 
-# Mint'nt
+# Mintn't
 ```
 paru -Sy --needed file-roller gnome-characters gnome-disk-utility \
 xreader bulky nemo xviewer sticky onboard seahorse \
