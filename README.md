@@ -21,5 +21,5 @@ rhythmbox baobab gparted gnome-software timeshift base-devel \
 noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
 pipewire-alsa pipewire-jack fastfetch linux-lts-headers \
 dosfstools ttf-material-design-icons-extended ttf-ms-win11-auto \
-flatpak
+flatpak lightdm-gtk-greeter-settings
 ```
