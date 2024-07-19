@@ -82,16 +82,16 @@ Photos:             Shotwell
     - cd paru-bin/
     - makepkg -si
 
-paru -Sy --needed alacritty mpv gimp audacity steam libreoffice-still wine winetricks zsh nano fastfetch btop \
+paru -Sy --needed alacritty mpv gimp audacity steam libreoffice-still zsh nano fastfetch btop \
 element-desktop godot qbittorrent dino git prismlauncher-bin blender-3.6-bin flatpak noto-fonts noto-fonts-cjk \
 noto-fonts-emoji noto-fonts-extra pipewire-alsa pipewire-jack jdk8-openjdk linux-headers dosfstools xfsprogs unrar\
 nkinitcpio-firmware ttf-material-design-icons-extended ttf-ms-win11-auto vesktop-bin classicube-git libcurl4 \
-libopenal1 ozu-lazer-bin spotube-bin wireplumber qemu-full gnome-font-viewer shotwell file-roller gedit hexchat \
-rhythmbox nautilus gnome-calendar
+libopenal1 ozu-lazer-bin spotube-bin wireplumber gnome-font-viewer shotwell file-roller gedit hexchat \
+rhythmbox gnome-calendar ntfs-3g exfat-utils 
 paru -R mate-terminal 
 ```
 
 #   flatpak
 ```
-flatpak install com.obsproject.Studio com.usebottles.bottles org.pitivi.Pitivi
+flatpak install com.obsproject.Studio com.usebottles.bottles com.github.rafostar.Clapper org.gnome.Boxes
 ```
