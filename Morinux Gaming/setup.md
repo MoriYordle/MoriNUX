@@ -69,7 +69,7 @@ Calendar:           Gnome Calendar
 
 Music:              Music
 
-Video:              mpv
+Video:              Clapper
 
 Photos:             Loupe
 
