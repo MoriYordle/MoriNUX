@@ -10,8 +10,8 @@ DE:                - Budgie
 #   Appearance
 
 **Style**:
-      Widgets:                Fluent Round Dark Compact
-      Icons:                  Tela Dark
+      Widgets:                Sweet Dark V40
+      Icons:                  Miya Black
       Cursors:                BreezeX Light
       Notification Possition: Bottom Right
       Dark Theme:             true
