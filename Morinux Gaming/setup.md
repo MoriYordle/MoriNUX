@@ -82,7 +82,7 @@ Photos:             Loupe
     - makepkg -si
 
 paru -Sy --needed alacritty zsh nano fastfetch btop git blender-3.6-bin flatpak noto-fonts noto-fonts-cjk \
-noto-fonts-emoji noto-fonts-extra pipewire-alsa pipewire-jack jdk8-openjdk linux-headers dosfstools xfsprogs \
+noto-fonts-emoji noto-fonts-extra pipewire-alsa pipewire-jack jdk8-openjdk linux-zen-headers dosfstools xfsprogs \
 unrar nkinitcpio-firmware ttf-material-design-icons-extended ttf-ms-win11-auto classicube-git libcurl4 \
 libopenal1 wireplumber file-roller ntfs-3g exfat-utils 
 paru -R mate-terminal 
