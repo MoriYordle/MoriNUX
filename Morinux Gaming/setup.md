@@ -95,5 +95,5 @@ org.gimp.GIMP org.audacityteam.Audacity com.valvesoftware.Steam org.libreoffice.
 org.qbittorrent.qBittorrent im.dino.Dino org.prismlauncher.PrismLauncher dev.vencord.Vesktop sh.ppy.osu \
 com.github.KRTirtho.Spotube org.gnome.font-viewer org.gnome.Loupe org.gnome.TextEditor com.chatterino.chatterino \
 org.gnome.Calendar io.bassi.Amberol com.github.tchx84.Flatseal org.gnome.Calculator org.gnome.clocks \
-io.github.antimicrox.antimicrox page.kramo.Cartridges org.mozilla.Thunderbird sh.ppy.osu 
+io.github.antimicrox.antimicrox page.kramo.Cartridges org.mozilla.Thunderbird
 ```
