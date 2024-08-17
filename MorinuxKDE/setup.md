@@ -99,12 +99,13 @@ paru -Sy --needed alacritty kdenlive kmail kdeconnect okular gwenview spectacle 
 gimp audacity steam libreoffice-fresh git noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
 pipewire-alsa pipewire-jack jdk8-openjdk base-devel zsh nano fastfetch btop element-desktop dino \
 linux-zen-headers partitionmanager dosfstools mkinitcpio-firmware prismlauncher-bin blender-3.6-bin \
-ttf-material-design-icons-extended ttf-ms-win11-auto ytdownloader-gui-bin spotube-bin ntfs-3g exfat-utils grub-customizer
+ttf-material-design-icons-extended ttf-ms-win11-auto ytdownloader-gui-bin spotube-bin ntfs-3g \
+exfat-utils grub-customizer gst-libav gst-plugins-good gst-plugin-openh264 gnome-boxes
 paru -R htop 
 ```
 
 #   flatpak
 ```
 flatpak install com.obsproject.Studio com.usebottles.bottles dev.vencord.Vesktop \
-com.github.tchx84.Flatseal sh.ppy.osu com.github.rafostar.Clapper
+com.github.tchx84.Flatseal sh.ppy.osu
 ```
