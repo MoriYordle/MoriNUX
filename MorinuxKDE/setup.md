@@ -57,7 +57,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 #   Aplications
 
-Web Browser:        Firefox
+Web Browser:        Zen Browser
 
 Email Client:       KMail
 
@@ -67,7 +67,7 @@ File Manager:       Dolphin
 
 File Archiver:      Ark
 
-Terminal emulator:  Konsole
+Terminal emulator:  Alacritty
 
 Text Editor:        Kate
 
@@ -77,7 +77,7 @@ PDF:                Okular
 
 Image Viewer:       GwenView
 
-Music:              Elisa
+Music:              AudioTube
 
 Video:              MPV
 
@@ -95,17 +95,12 @@ Map:                Google Maps
     - cd paru-bin/
     - makepkg -si
 
-paru -Sy --needed alacritty kdenlive kmail kdeconnect okular gwenview spectacle elisa mpv flatpak \
-gimp audacity steam libreoffice-fresh git noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
-pipewire-alsa pipewire-jack jdk8-openjdk base-devel zsh nano fastfetch btop element-desktop dino \
-linux-zen-headers partitionmanager dosfstools mkinitcpio-firmware prismlauncher-bin blender-3.6-bin \
-ttf-material-design-icons-extended ttf-ms-win11-auto ytdownloader-gui-bin spotube-bin ntfs-3g \
-exfat-utils grub-customizer gst-libav gst-plugins-good gst-plugin-openh264 gnome-boxes
+paru -Sy --needed 7zip alacritty audiotube btop bzip2 chatterino2-7tv-bin curl exfat-utils fastfetch ffmpeg-obs ffmpeg flatpak gimp git gst-libav gst-plugin-pipewire gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good hstreamer gzip heroic-games-launcher-bin heroic-games-launcher-bin-wayland-hook kalk kate kdeconnect kdenlive kvantum libreoffice-fresh libvirt linux-zen-headers lua mesa mesa-utils nano neochat noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g obs-gstreamer obs-multi-rtmp obs-pipewire-audio-capture-bin obs-studio-browser pipewire-alsa pipewire-jack pipewire-pulse prismlauncher-qt5-bin qemu steam tokodon ttf-ms-win11-auto ungoogled-chromium unrar unzip vesktop-bin virt-manager qbittorrent yt-dlp zen-browser-bin zsh
+
 paru -R htop 
 ```
 
 #   flatpak
 ```
-flatpak install com.obsproject.Studio com.usebottles.bottles dev.vencord.Vesktop \
-com.github.tchx84.Flatseal sh.ppy.osu
+flatpak install flathub com.github.tchx84.Flatseal com.github.unrud.VideoDownloader com.usebottles.bottles
 ```
