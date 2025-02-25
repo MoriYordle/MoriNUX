@@ -86,6 +86,8 @@ Map:                Google Maps
 #   Widgets
 -PlasMusic
 -Minimalist Clock
+-Ginti
+-Start next menu
 
 #               Build
 
