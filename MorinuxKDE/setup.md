@@ -97,12 +97,12 @@ Map:                Google Maps
     - cd paru-bin/
     - makepkg -si
 
-paru -Sy --needed 7zip alacritty btop bzip2 chatterino2-7tv-bin curl element-desktop exfat-utils fastfetch ffmpeg-obs ffmpeg flatpak gimp git gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gstreamer gzip kalk kate kdeconnect kdenlive kvantum libreoffice-fresh libvirt linux-zen-headers lua libratbag mesa mesa-utils nano nora-bin noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g obs-gstreamer obs-multi-rtmp obs-pipewire-audio-capture-bin obs-studio-browser partitionmanager piper pipewire-alsa pipewire-jack pipewire-pulse prismlauncher-qt5-bin qemu steam tokodon ttf-ms-win11-auto ungoogled-chromium unrar unzip vesktop-bin virt-manager qbittorrent yt-dlp zen-browser-bin zsh
+paru -Sy --needed alacritty btop curl element-desktop exfat-utils fastfetch ffmpeg flatpak gimp git gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gstreamer kalk kate kdeconnect kdenlive kvantum libreoffice-fresh libvirt linux-zen-headers lua libratbag mesa mesa-utils nano noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g partitionmanager piper pipewire-alsa pipewire-jack pipewire-pulse prismlauncher-qt5-bin qemu steam tokodon ttf-ms-win11-auto ungoogled-chromium unrar unzip vesktop-bin virt-manager qbittorrent zen-browser-bin zsh
 
 paru -R htop 
 ```
 
 #   flatpak
 ```
-flatpak install flathub com.github.tchx84.Flatseal com.github.unrud.VideoDownloader com.usebottles.bottles
+flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles
 ```
